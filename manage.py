@@ -3,7 +3,11 @@ import os
 import sys
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "simple_project.settings")
+=======
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "helloworld_project.settings")
+>>>>>>> 171f531816a2bab6ba61924e93f9b7a677a82750
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
